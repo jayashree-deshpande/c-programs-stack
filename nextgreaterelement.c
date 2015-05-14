@@ -58,7 +58,7 @@ void printNGE(int a[], int n)
 	int i = 0;
 	struct Stack s;
 	s.top = -1;
-    int element, next;
+    	int element, next;
 	printf("%d", a[0]);
 	/* push first element to stack */
 	push(&s, a[0]);
@@ -76,8 +76,8 @@ void printNGE(int a[], int n)
         if (!isEmpty(&s))
         {
             // if stack is not empty, then pop an element from stack
-            element = pop(&s);
-			printf("%d", element);
+        	element = pop(&s);
+		printf("%d", element);
             /* If the popped element is smaller than next, then
                 a) print the pair
                 b) keep popping while elements are smaller and
