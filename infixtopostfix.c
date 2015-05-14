@@ -7,7 +7,7 @@ struct Stack
 {
     int top;
     unsigned capacity;
-    int* myArray;
+    int* array;
 };
  
 // Stack Operations
